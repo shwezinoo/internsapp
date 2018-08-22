@@ -24,7 +24,7 @@ internsApp = {};
 			if(!snapShot){
 				console.log("No data found:");
 			}else{
-			/*	var results = snapShot.val();
+				var results = snapShot.val();
 				console.log(results);
 				var keys = Object.keys(results);
 				console.log("Key: " + keys); 
@@ -40,8 +40,8 @@ internsApp = {};
 					newElement['project'] = project;
 					interns.push(newElement);
 					console.log(key, name, project, team);
-	  		});*/
-				console.log(snapShot.val());
+	  		});
+			//	console.log(snapShot.val());
 				//internsObj = { internsBinding: interns}
 			//	ko.applyBindings(internsObj);
 		}

@@ -54,3 +54,44 @@
     at TCP.done [as _onclose] (_tls_wrap.js:356:7)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2018-08-22T12:34:20.725Z] ----------------------------------------------------------------------
+[debug] [2018-08-22T12:34:20.725Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lovely love\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-22T12:34:20.725Z] CLI Version:   3.19.3
+[debug] [2018-08-22T12:34:20.725Z] Platform:      win32
+[debug] [2018-08-22T12:34:20.725Z] Node Version:  v8.11.3
+[debug] [2018-08-22T12:34:20.730Z] Time:          Wed Aug 22 2018 05:34:20 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T12:34:20.730Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-22T12:34:20.745Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-22T12:34:20.745Z] > authorizing via signed-in user
+[debug] [2018-08-22T12:34:20.750Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-22T12:34:20.750Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/X5mQav0DopfjRJeIJObYmP9PXdkgBsBEmlCbaReCltM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Aug 22 2018 05:34:20 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T12:34:21.320Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T12:34:21.380Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/internship-88c55  
+  
+ Wed Aug 22 2018 05:34:21 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T12:34:23.657Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T12:34:23.657Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/internship-88c55/tokens  
+  
+ Wed Aug 22 2018 05:34:23 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T12:34:25.289Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T12:34:25.289Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/internship-88c55  
+  
+ Wed Aug 22 2018 05:34:25 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T12:34:27.332Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\interns'...
+[info] 
+[debug] [2018-08-22T12:34:27.348Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/11676907849/clients/_:getWebAppConfig  
+  
+ Wed Aug 22 2018 05:34:27 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T12:34:28.565Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
