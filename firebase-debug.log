@@ -1,32 +1,56 @@
-[debug] [2018-08-22T09:06:38.799Z] ----------------------------------------------------------------------
-[debug] [2018-08-22T09:06:38.799Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lovely love\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-08-22T09:06:38.799Z] CLI Version:   3.19.3
-[debug] [2018-08-22T09:06:38.799Z] Platform:      win32
-[debug] [2018-08-22T09:06:38.799Z] Node Version:  v8.11.3
-[debug] [2018-08-22T09:06:38.799Z] Time:          Wed Aug 22 2018 02:06:38 GMT-0700 (Pacific Daylight Time)
-[debug] [2018-08-22T09:06:38.799Z] ----------------------------------------------------------------------
+[debug] [2018-08-22T10:02:10.979Z] ----------------------------------------------------------------------
+[debug] [2018-08-22T10:02:10.979Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lovely love\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-22T10:02:10.979Z] CLI Version:   3.19.3
+[debug] [2018-08-22T10:02:10.979Z] Platform:      win32
+[debug] [2018-08-22T10:02:10.979Z] Node Version:  v8.11.3
+[debug] [2018-08-22T10:02:10.979Z] Time:          Wed Aug 22 2018 03:02:10 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T10:02:10.979Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-08-22T09:06:38.814Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-08-22T09:06:38.814Z] > authorizing via signed-in user
-[debug] [2018-08-22T09:06:38.830Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/internship-88c55  
+[debug] [2018-08-22T10:02:11.010Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-22T10:02:11.010Z] > authorizing via signed-in user
+[debug] [2018-08-22T10:02:11.010Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-22T10:02:11.010Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/X5mQav0DopfjRJeIJObYmP9PXdkgBsBEmlCbaReCltM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Aug 22 2018 03:02:11 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T10:02:11.743Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T10:02:11.853Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/internship-88c55  
   
- Wed Aug 22 2018 02:06:38 GMT-0700 (Pacific Daylight Time)
-[debug] [2018-08-22T09:06:43.198Z] <<< HTTP RESPONSE 200
-[debug] [2018-08-22T09:06:43.198Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/internship-88c55/tokens  
+ Wed Aug 22 2018 03:02:11 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T10:02:14.473Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T10:02:14.505Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/internship-88c55/tokens  
   
- Wed Aug 22 2018 02:06:43 GMT-0700 (Pacific Daylight Time)
-[debug] [2018-08-22T09:06:45.023Z] <<< HTTP RESPONSE 200
-[debug] [2018-08-22T09:06:45.039Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/internship-88c55  
+ Wed Aug 22 2018 03:02:14 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T10:02:16.299Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T10:02:16.299Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/internship-88c55  
   
- Wed Aug 22 2018 02:06:45 GMT-0700 (Pacific Daylight Time)
-[debug] [2018-08-22T09:06:46.677Z] <<< HTTP RESPONSE 200
+ Wed Aug 22 2018 03:02:16 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T10:02:17.937Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\interns'...
 [info] 
-[debug] [2018-08-22T09:06:46.677Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/11676907849/clients/_:getWebAppConfig  
+[debug] [2018-08-22T10:02:17.937Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/11676907849/clients/_:getWebAppConfig  
   
- Wed Aug 22 2018 02:06:46 GMT-0700 (Pacific Daylight Time)
-[debug] [2018-08-22T09:06:48.518Z] <<< HTTP RESPONSE 200
+ Wed Aug 22 2018 03:02:17 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-22T10:02:22.741Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
 
+[debug] [2018-08-22T12:32:45.577Z] Error: connect ETIMEDOUT 172.217.194.94:443
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-22T12:32:45.577Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:557:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
